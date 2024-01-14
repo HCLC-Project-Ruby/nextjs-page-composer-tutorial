@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=======================================================================
+ The sample contained herein is provided to you "AS IS".
+
+ It is furnished by IBM as a simple example and has not been thoroughly
+ tested under all conditions.  IBM, therefore, cannot guarantee its
+ reliability, serviceability or functionality.
+
+ This sample may include the names of individuals, companies, brands
+ and products in order to illustrate concepts as completely as
+ possible.
+ All of these names are fictitious and any similarity to the names
+ and addresses used by actual persons or business enterprises is entirely coincidental. =======================================================================
+-->
+
+<_config:DataLoadConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../xsd/wc-dataload.xsd"
+  xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+  <_config:DataLoadEnvironment configFile="../wc-dataload-env.xml" />
+
+  <_config:LoadOrder commitCount="100" batchSize="1" dataLoadMode="Replace">
+    <_config:property name="charset" value="UTF-8" />
+
+    <!-- Register the containers -->
+    <_config:LoadItem name="RegisterWidgetDef_Container" businessObjectConfigFile="../wc-loader-registerWidgetdef.xml">
+      <_config:DataSourceLocation location="../container/registerWidgetdef.csv" />
+    </_config:LoadItem>
+
+    <!-- Registering the widgets -->
+    <_config:LoadItem name="RegisterWidgetDef" businessObjectConfigFile="../wc-loader-registerWidgetdef.xml">
+      <_config:DataSourceLocation location="registerWidgetdef.csv" />
+    </_config:LoadItem>
+
+    <!-- Subscribe containers to the store -->
+    <_config:LoadItem name="SubscribeWidgetDef_Container" businessObjectConfigFile="../wc-loader-subscribeWidgetdef.xml">
+      <_config:DataSourceLocation location="../container/subscribeWidgetdef.csv" />
+    </_config:LoadItem>
+
+    <!-- Subscribe widgets to the store -->
+    <_config:LoadItem name="SubscribeWidgetDef" businessObjectConfigFile="../wc-loader-subscribeWidgetdef.xml">
+      <_config:DataSourceLocation location="subscribeWidgetdef.csv" />
+    </_config:LoadItem>
+  </_config:LoadOrder>
+
+</_config:DataLoadConfiguration>

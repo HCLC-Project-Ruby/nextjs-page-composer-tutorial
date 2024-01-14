@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=======================================================================
+ The sample contained herein is provided to you "AS IS".
+
+ It is furnished by IBM as a simple example and has not been thoroughly
+ tested under all conditions.  IBM, therefore, cannot guarantee its
+ reliability, serviceability or functionality.
+
+ This sample may include the names of individuals, companies, brands
+ and products in order to illustrate concepts as completely as
+ possible.
+ All of these names are fictitious and any similarity to the names
+ and addresses used by actual persons or business enterprises is entirely coincidental. =======================================================================
+-->
+
+<_config:DataLoadEnvConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../xml/config/xsd/wc-dataload-env.xsd"
+	xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+	<_config:BusinessContext storeIdentifier="EmeraldSAS" languageId="-1" catalogIdentifier="EmeraldCAS">
+	</_config:BusinessContext>
+
+	<!-- database setting for derby in Toolkit -->
+	<!-- <_config:Database type="derby" name="..\db\mall" schema="APP"/> -->
+
+	<!-- database setting for Oracle -->
+	<!--
+	<_config:Database name="<database name>" user="<user>" password="<password>" port="1521" schema="<schema name>" server="<server>" type="Oracle" />
+	-->
+
+	<!-- database setting for AIX/DB2 server -->
+	<_config:Database type="db2" name="mall" user="wcs" password="okFQawPB19Tkl1wKqQPDdAVtwz+mIgpJyqJQUuUWtyk=" server="10.115.171.46" port="50000" schema="wcs" />
+
+	<_config:IDResolver className="com.ibm.commerce.foundation.dataload.idresolve.IDResolverImpl" cacheSize="0"/>
+
+	<_config:DataWriter className="com.ibm.commerce.foundation.dataload.datawriter.JDBCDataWriter" />
+
+</_config:DataLoadEnvConfiguration>

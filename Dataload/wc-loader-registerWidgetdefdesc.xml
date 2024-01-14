@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=======================================================================
+ The sample contained herein is provided to you "AS IS".
+
+ It is furnished by IBM as a simple example and has not been thoroughly 
+ tested under all conditions.  IBM, therefore, cannot guarantee its 
+ reliability, serviceability or functionality.  
+
+ This sample may include the names of individuals, companies, brands 
+ and products in order to illustrate concepts as completely as 
+ possible.  
+ All of these names are fictitious and any similarity to the names 
+ and addresses used by actual persons or business enterprises is entirely 
+ coincidental.
+=======================================================================
+-->
+
+<_config:DataloadBusinessObjectConfiguration
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.ibm.com/xmlns/prod/commerce/foundation/config ../../../../xml/config/xsd/wc-dataload-businessobject.xsd"
+  xmlns:_config="http://www.ibm.com/xmlns/prod/commerce/foundation/config">
+
+  <_config:DataLoader className="com.ibm.commerce.foundation.dataload.BusinessObjectLoader" >
+
+    <_config:DataReader className="com.ibm.commerce.foundation.dataload.datareader.CSVReader"
+                        firstLineIsHeader="true"
+                        useHeaderAsColumnName="true" >
+    </_config:DataReader>
+
+  <_config:BusinessObjectBuilder className="com.ibm.commerce.foundation.dataload.businessobjectbuilder.BaseBusinessObjectBuilder"
+                                   packageName="com.ibm.commerce.pagelayout.facade.datatypes.PageLayoutPackage" dataObjectType="WidgetDefinitionType" >
+     <_config:DataMapping>
+        <_config:mapping xpath="WidgetDefinitionIdentifier/UniqueID"                       value="UniqueID" />
+        <_config:mapping xpath="WidgetDefinitionIdentifier/ExternalIdentifier/Identifier"  value="WidgetDefIdentifier" />
+      
+        <_config:mapping xpath="WidgetDefinitionIdentifier/ExternalIdentifier/StoreIdentifier/UniqueID"      
+                                                                                          value="WidgetStoreUniqueID" />
+        <_config:mapping xpath="WidgetDefinitionIdentifier/ExternalIdentifier/StoreIdentifier/ExternalIdentifier/NameIdentifier"      
+                                                                                          value="WidgetStoreIdentifier" />
+
+        <!-- The widget description language -->
+      	<_config:mapping xpath="Description[0]/language"                                   value="Language" />
+       	<_config:mapping xpath="Description[0]/language"                                   value="LanguageId" />
+        <_config:mapping xpath="Description[0]/Description"                                value="WidgetDescription" />
+        <_config:mapping xpath="Description[0]/DisplayName"                                value="WidgetDisplayName" />
+        
+        <!-- The Delete indicator -->
+        <_config:mapping xpath=""                                                          value="Delete" deleteValue="1" />
+      </_config:DataMapping>
+      <_config:BusinessObjectMediator className="com.ibm.commerce.pagelayout.dataload.mediator.RegisterWidgetDefDescMediator" componentId="com.ibm.commerce.pagelayout" />
+    </_config:BusinessObjectBuilder>
+
+  </_config:DataLoader>
+</_config:DataloadBusinessObjectConfiguration>
