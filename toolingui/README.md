@@ -9,9 +9,9 @@ Before starting, make sure you have done dataload.
 
 3. Copy the layout-widget-types.json file into src\app\features\page-builder\components\layout-widget-details folder
 
-6. Restart Angular tooling UI project.
+4. Restart Angular tooling UI project.
 
-7. You should be able to use this template in page composer now.
+5. You should be able to use this template in page composer now.
    ![page_composer_template_design_page1.png](./page_composer_template_design_page1.PNG "page_composer_template_design_page1.png")
    ![page_composer_template_design_page2.png](./page_composer_template_design_page2.PNG "page_composer_template_design_page2.png")
 
