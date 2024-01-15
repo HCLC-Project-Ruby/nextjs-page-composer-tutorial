@@ -1,0 +1,81 @@
+[
+	{
+		"id": "-8500",
+		"title": "PAGE_BUILDER.MARKETING_CONTENT",
+		"selectContent": true
+	},
+	{
+		"id": "-8501",
+		"title": "PAGE_BUILDER.BREADCRUMB_TRAIL"
+	},
+	{
+		"id": "-8502",
+		"title": "PAGE_BUILDER.FACET_FILTER"
+	},
+	{
+		"id": "-8503",
+		"title": "PAGE_BUILDER.PRODUCT_LIST"
+	},
+	{
+		"id": "-8504",
+		"title": "PAGE_BUILDER.RECOMMEND_PRODUCTS",
+		"selectProducts": true
+	},
+	{
+		"id": "-8505",
+		"title": "PAGE_BUILDER.SUBCATEGORY_LIST"
+	},
+	{
+		"id": "-8506",
+		"title": "PAGE_BUILDER.FEATURED_PRODUCT",
+		"selectProduct": true
+	},
+	{
+		"id": "-8507",
+		"title": "PAGE_BUILDER.RECOMMEND_CATEGORIES",
+		"selectCategories": true
+	},
+	{
+		"id": "-8508",
+		"title": "PAGE_BUILDER.PRODUCT_DETAILS"
+	},
+	{
+		"id": "-8509",
+		"title": "PAGE_BUILDER.RELATED_PRODUCTS"
+	},
+	{
+		"id": "-8510",
+		"title": "PAGE_BUILDER.ATTRIBUTE_FILTER"
+	},
+	{
+		"id": "-8511",
+		"title": "PAGE_BUILDER.SKU_LIST"
+	},
+	{
+		"id": "-8512",
+		"title": "PAGE_BUILDER.PRODUCT_SUMMARY"
+	},
+	{
+		"id": "-8513",
+		"title": "PAGE_BUILDER.E_MARKETING_SPOT",
+		"selectMarketingSpot": true
+	},
+	{
+		"id": "-8514",
+		"title": "PAGE_BUILDER.BUNDLE_DETAILS"
+	},
+	{
+		"id": "-8515",
+		"title": "PAGE_BUILDER.CONTENT_CAROUSEL",
+		"carousel": true,
+		"selectContent": true
+	},
+	{
+		"id": "-8516",
+		"title": "PAGE_BUILDER.KIT_DETAILS"
+	},
+	{
+		"id": "-8517",
+		"title": "PAGE_BUILDER.MY_SAMPLE_SITE_WIDGET"
+	}
+]
