@@ -1,0 +1,308 @@
+[
+	{
+		"id": "-8000",
+		"name": "home-page",
+		"title": "PAGE_BUILDER.HOME_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+			"grid-template-columns": "100%"
+		},
+		"slots": [
+			{
+				"id": "1"
+			},
+			{
+				"id": "2"
+			}
+		]
+	},
+	{
+		"id": "-8001",
+		"name": "b2b-product-page",
+		"title": "PAGE_BUILDER.B2B_PRODUCT_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+			"grid-template-columns": "25% calc(75% - 10px)"
+		},
+		"slots": [
+			{
+				"id": "1",
+				"style": {
+					"grid-column": "1 / span 2"
+				}
+			},
+			{
+				"id": "2",
+				"style": {
+					"grid-column": "1 / span 2"
+				}
+			},
+			{
+				"id": "3",
+				"style": {
+					"grid-column": "1"
+				}
+			},
+			{
+				"id": "4",
+				"style": {
+					"grid-column": "2"
+				}
+			},
+			{
+				"id": "5",
+				"style": {
+					"grid-column": "1 / span 2"
+				}
+			}
+		]
+	},
+	{
+		"id": "-8002",
+		"name": "product-page",
+		"title": "PAGE_BUILDER.PRODUCT_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+			"grid-template-columns": "100%"
+		},
+		"slots": [
+			{
+				"id": "1"
+			},
+			{
+				"id": "2"
+			},
+			{
+				"id": "3"
+			}
+		]
+	},
+	{
+		"id": "-8003",
+		"name": "category-landing-page",
+		"title": "PAGE_BUILDER.CATEGORY_LANDING_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+			"grid-template-columns": "100%"
+		},
+		"slots": [
+			{
+				"id": "1"
+			},
+			{
+				"id": "2"
+			}
+		]
+	},
+	{
+		"id": "-8004",
+		"name": "product-listing-page",
+		"title": "PAGE_BUILDER.PRODUCT_LISTING_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+			"grid-template-columns": "25% calc(75% - 10px)"
+		},
+		"slots": [
+			{
+				"id": "1",
+				"style": {
+					"grid-column": "1 / span 2"
+				}
+			},
+			{
+				"id": "2",
+				"style": {
+					"grid-column": "1"
+				}
+			},
+			{
+				"id": "3",
+				"style": {
+					"grid-column": "2"
+				}
+			}
+		]
+	},
+	{
+		"id": "-8005",
+		"name": "cart-page",
+		"title": "PAGE_BUILDER.CART_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"restrictedPageName": "CartPage",
+		"style": {
+			"grid-template-columns": "100%"
+		},
+		"slots": [
+			{
+				"id": "1"
+			},
+			{
+				"id": "cart_slot",
+				"reserved": true,
+				"title": "PAGE_BUILDER.SHOPPING_CART"
+			},
+			{
+				"id": "2"
+			}
+		]
+	},
+	{
+		"id": "-8006",
+		"name": "check-out-page",
+		"title": "PAGE_BUILDER.CHECKOUT_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"restrictedPageName": "CheckOutPage",
+		"style": {
+			"grid-template-columns": "100%"
+		},
+		"slots": [
+			{
+				"id": "1"
+			},
+			{
+				"id": "checkout_slot",
+				"reserved": true,
+				"title": "PAGE_BUILDER.CHECKOUT"
+			},
+			{
+				"id": "2"
+			}
+		]
+	},
+	{
+		"id": "-8007",
+		"name": "order-confirmation-page",
+		"title": "PAGE_BUILDER.ORDER_CONFIRMATION_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"restrictedPageName": "OrderConfirmationPage",
+		"style": {
+			"grid-template-columns": "100%"
+		},
+		"slots": [
+			{
+				"id": "1"
+			},
+			{
+				"id": "order_confirmation_slot",
+				"reserved": true,
+				"title": "PAGE_BUILDER.ORDER_CONFIRMATION"
+			},
+			{
+				"id": "2"
+			}
+		]
+	},
+	{
+		"id": "-8008",
+		"name": "bundle-page",
+		"title": "PAGE_BUILDER.BUNDLE_PAGE",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+			"grid-template-columns": "100%"
+		},
+		"slots": [
+			{
+				"id": "1"
+			},
+			{
+				"id": "2"
+			},
+			{
+				"id": "3"
+			}
+		]
+	},
+	{
+		"id": "-8010",
+		"name": "my-customer-page",
+		"title": "Custom Template",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+			"grid-template-columns": "25% calc(50% - 10px) calc(25% - 10px)"
+		},
+		"slots": [
+			{
+				"id": "1",
+				"style": {
+					"grid-column": "1 / span 3"
+				}
+			},
+			{
+				"id": "2",
+				"style": {
+					"grid-column": "1 / span 2"
+				}
+			},
+			{
+				"id": "3",
+				"style": {
+					"grid-column": "3"
+				}
+			},
+			{
+				"id": "4",
+				"style": {
+					"grid-column": "1"
+				}
+			},
+			{
+				"id": "5",
+				"style": {
+					"grid-column": "2"
+				}
+			},
+			{
+				"id": "6",
+				"style": {
+					"grid-column": "3"
+				}
+			}
+		]
+	},
+	{
+		"id": "-8011",
+		"name": "my-test-product-page",
+		"title": "My Test Product page",
+		"showHeader": true,
+		"showFooter": true,
+		"style": {
+		  "grid-template-columns": "45% calc(55% - 10px)"
+		},
+		"slots": [
+		  {
+			"id": "1",
+			"style": {
+			  "grid-column": "1 / span 2"
+			}
+		  },
+		  {
+			"id": "2",
+			"style": {
+			  "grid-column": "1"
+			}
+		  },
+		  {
+			"id": "3",
+			"style": {
+			  "grid-column": "2"
+			}
+		  },
+		  {
+			"id": "4",
+			"style": {
+			  "grid-column": "1 / span 2"
+			}
+		  }
+		]
+	  }
+]
