@@ -1,2 +1,2 @@
-WidgetDefIdentifier,WidgetStoreUniqueID,WidgetType,WidgetVendor,WidgetState,WidgetPath,WidgetDefinitionxml,WidgetDisplayName,WidgetDescription,Delete
-my-sample-site-widget,0,1,hcl,1,'',<Definition> </Definition>,Sample site widget,The sample site widget description,
+UniqueID,WidgetDefIdentifier,WidgetStoreUniqueID,WidgetType,WidgetVendor,WidgetState,WidgetPath,WidgetDefinitionxml,WidgetDisplayName,WidgetDescription,Delete
+-8517,my-sample-site-widget,0,1,hcl,1,'',<Definition> </Definition>,Sample site widget,The sample site widget description,

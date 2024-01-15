@@ -126,6 +126,12 @@
 				"name": "kit-widget",
 				"title": "PAGE_BUILDER.KIT_DETAILS",
 				"description": "PAGE_BUILDER.KIT_DETAILS_DESCRIPTION"
+			},
+			{
+				"id": "-8517",
+				"name": "my-sample-site-widget",
+				"title": "PAGE_BUILDER.MY_SAMPLE_SITE_WIDGET",
+				"description": "PAGE_BUILDER.MY_SAMPLE_SITE_WIDGET_DESCRIPTION"
 			}
 		]
 	}

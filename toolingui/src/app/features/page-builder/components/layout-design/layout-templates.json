@@ -223,86 +223,38 @@
 	},
 	{
 		"id": "-8010",
-		"name": "my-customer-page",
-		"title": "Custom Template",
-		"showHeader": true,
-		"showFooter": true,
-		"style": {
-			"grid-template-columns": "25% calc(50% - 10px) calc(25% - 10px)"
-		},
-		"slots": [
-			{
-				"id": "1",
-				"style": {
-					"grid-column": "1 / span 3"
-				}
-			},
-			{
-				"id": "2",
-				"style": {
-					"grid-column": "1 / span 2"
-				}
-			},
-			{
-				"id": "3",
-				"style": {
-					"grid-column": "3"
-				}
-			},
-			{
-				"id": "4",
-				"style": {
-					"grid-column": "1"
-				}
-			},
-			{
-				"id": "5",
-				"style": {
-					"grid-column": "2"
-				}
-			},
-			{
-				"id": "6",
-				"style": {
-					"grid-column": "3"
-				}
-			}
-		]
-	},
-	{
-		"id": "-8011",
 		"name": "my-test-product-page",
 		"title": "My Test Product page",
 		"showHeader": true,
 		"showFooter": true,
 		"style": {
-		  "grid-template-columns": "45% calc(55% - 10px)"
+			"grid-template-columns": "45% calc(55% - 10px)"
 		},
 		"slots": [
-		  {
-			"id": "1",
-			"style": {
-			  "grid-column": "1 / span 2"
+			{
+				"id": "1",
+				"style": {
+					"grid-column": "1 / span 2"
+				}
+			},
+			{
+				"id": "2",
+				"style": {
+					"grid-column": "1"
+				}
+			},
+			{
+				"id": "3",
+				"style": {
+					"grid-column": "2"
+				}
+			},
+			{
+				"id": "4",
+				"style": {
+					"grid-column": "1 / span 2"
+				}
 			}
-		  },
-		  {
-			"id": "2",
-			"style": {
-			  "grid-column": "1"
-			}
-		  },
-		  {
-			"id": "3",
-			"style": {
-			  "grid-column": "2"
-			}
-		  },
-		  {
-			"id": "4",
-			"style": {
-			  "grid-column": "1 / span 2"
-			}
-		  }
 		]
-	  }
+	}
 ]
