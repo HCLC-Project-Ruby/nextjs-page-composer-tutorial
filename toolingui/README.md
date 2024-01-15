@@ -7,8 +7,8 @@
 3. Run the my-test-product-page.sql commands (make sure your new template page's id doesn't conflict with existing IDs in both PLWIDGETDEF & PLSTOREWIDGET tables)
 4. Restart Angular tooling UI project.
 5. You should be able to use this template in page composer now.
-   ![page_composer_template_design_page1.png](./page_composer_template_design_page1.png "page_composer_template_design_page1.png")
-   ![page_composer_template_design_page2.png](./page_composer_template_design_page2.png "page_composer_template_design_page2.png")
+   ![page_composer_template_design_page1.png](./page_composer_template_design_page1.PNG "page_composer_template_design_page1.png")
+   ![page_composer_template_design_page2.png](./page_composer_template_design_page2.PNG "page_composer_template_design_page2.png")
    
 
 
