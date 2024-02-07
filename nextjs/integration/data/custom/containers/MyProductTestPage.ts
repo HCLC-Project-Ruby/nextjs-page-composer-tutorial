@@ -8,7 +8,7 @@ import { Layout } from '@/data/types/Layout';
 import { getContentItemForSlot } from '@/data/utils/getContentItemForSlot';
 
 export const getMyProductTestPage = (props: IncomingContent): Layout => ({
-	name: 'TowColumn',
+	name: 'TwoColumn',
 	slots: {
 		header: [{ name: 'Header', id: 'header' }],
 		first: getContentItemForSlot(props, 'first'),
