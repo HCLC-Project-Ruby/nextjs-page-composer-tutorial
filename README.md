@@ -1,8 +1,13 @@
-# page-composer-toturial
-Page Composer Tutorial Sample
+# Page Composer Tutorial Sample
+
+The sample contains three parts and uses following Layout and Widget example throughout the tutorial:
+
+| Type     | ID | IDENTIFIER |
+| -------- | -- | ---------- |
+| Layout (container widget) | -8010 | my-test-product-page |
+| Widget | -8517 | my-sample-site-widget |
 
 
-The sample container three parts
 
 ### Dataload
 
