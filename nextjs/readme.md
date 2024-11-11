@@ -4,5 +4,5 @@ This `nextjs` folder contains necessary custom implementations under `integratio
 
 |   | ID | IDENTIFIER | Integration | Presentation | 
 | - | -- | -- | ---------- | -------- |
-| Layout (container widget) | -8010 | my-test-product-page | `integration/data/custom/containers/manifestCustom.ts` | `presentation/components/custom/layouts/manifestCustom.ts` |
-| Widget | -8517 | my-sample-site-widget | `integration/data/custom/Content/manifestCustom.ts` | `presentation/components/custom/content/manifestCustom.ts` |
+| Layout (container widget) | -8010 | my-test-product-page | ```integration/data/custom/ containers/manifestCustom.ts``` | ```presentation/components/custom/ layouts/manifestCustom.ts``` |
+| Widget | -8517 | my-sample-site-widget | ```integration/data/custom/ Content/manifestCustom.ts``` | ```presentation/components/custom/ content/manifestCustom.ts``` |
