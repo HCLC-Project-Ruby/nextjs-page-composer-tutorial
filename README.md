@@ -11,7 +11,7 @@ The sample contains three parts and uses following Layout and Widget example thr
 
 ### Dataload
 
-The dataload contains sample data for a container widget (layout template) and a site level widget.
+The dataload folder contains sample data for a container widget (layout template) and a site level widget.
 
 
 ### NextJs
